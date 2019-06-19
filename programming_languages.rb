@@ -33,7 +33,7 @@ languages = {
 def reformat_languages(languages)
   # your code here
   languages.each do |type, other, other1, other2|
-    puts other1
+    puts other2
   end
   
 end
