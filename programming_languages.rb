@@ -32,7 +32,9 @@ languages = {
 
 def reformat_languages(languages)
   # your code here
-  return languages[:oo]
+  languages.each do |type|
+    puts type
+  end
   
 end
 
